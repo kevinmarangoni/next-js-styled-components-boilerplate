@@ -1,17 +1,17 @@
 import { createGlobalStyle } from "styled-components";
-import { IGlobalStyleProps } from '@/types/theme'
+import { IGlobalStyleProps } from "@/types/theme";
 
-const globalStyle = createGlobalStyle<IGlobalStyleProps>`
+const GlobalStyle = createGlobalStyle<IGlobalStyleProps>`
 
     *{
         padding: 0;
         margin: 0;
         font-family: 'Doboto', sans-serif;
-        color: ${props=> props.theme.font}
+        color: ${(props) => props.theme.font}
     }
 
     html{
-        background-color: ${props=> props.theme.background.primary};
+        background-color: ${(props) => props.theme.background.primary};
         line-height: 1.5;
         -webkit-font-smoothing: antialiased;
         -webkit-text-size-adjust: 100%;
@@ -121,6 +121,6 @@ img, picture, video, canvas, svg {
   max-width: 100%;
 }
 
-`
+`;
 
-export default globalStyle
+export default GlobalStyle;

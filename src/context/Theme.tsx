@@ -1,7 +1,7 @@
 import React,{createContext, useState} from 'react'
 import { ThemeProvider } from 'styled-components'
 import { dark, light } from '@theme/theme'
-import GlobalStyle from '@styles/globalStyles'
+import GlobalStyle from '@styles/GlobalStyles'
 import {IChildrenProps} from '@/types/props'
 
 export const ThemeContext: React.Context<Object> = createContext<Object>({} as Object)

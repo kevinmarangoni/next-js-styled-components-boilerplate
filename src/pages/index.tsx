@@ -1,8 +1,9 @@
+import Home from "@pages/Home"
 
-
-export default function Home() {
+export default function Index() {
   return (
     <>
+      <Home/>
     </>
   )
 }
