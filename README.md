@@ -4,6 +4,7 @@ Este é um repositório boilerplate criado por mim para iniciar projetos com Nex
 
 O CSS base já foi atualizado com o Reset CSS mais recente, garantindo uma experiência de desenvolvimento consistente e livre de estilos indesejados.
  
+Vale ressaltar que este boilerplate contém arquivos com códigos básicos que uso em meus projetos pessoais, então pode ser que não sirva como uma luva para o seu caso. Ficarei feliz em receber sugestões de mudanças por via de issues e pull requests.
  ## Tecnologias incluídas
  
  - [Next.js](https://nextjs.org/): Um framework React para criação de aplicativos web modernos e eficientes.
